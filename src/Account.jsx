@@ -2,6 +2,7 @@ import { useSelector } from "react-redux"
 export default function Account(){
      let data = useSelector((state)=>{
                return state.user;
+          // newv state 
           })
     return(
         <>
